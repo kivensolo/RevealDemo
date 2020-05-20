@@ -13,10 +13,35 @@
         android:scaleType="fitXY"
         android:src="@drawable/bkg_aa" />
 
-    <ProgressBar
-        android:id="@+id/progressbar"
+
+    <Button
+        android:id="@+id/jump_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:layout_marginBottom="100px" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200px"
+        style="@style/demo_btn_style"
+        android:textAllCaps="false"
+        android:text="跳转 500ms"/>
+
+    <Button
+        android:id="@+id/jump_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400px"
+        style="@style/demo_btn_style"
+        android:textAllCaps="false"
+        android:text="跳转 1500ms"/>
+
+
+    <Button
+        android:id="@+id/jump_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="600px"
+        style="@style/demo_btn_style"
+        android:textAllCaps="false"
+        android:text="跳转 等待3s"/>
 </FrameLayout >
